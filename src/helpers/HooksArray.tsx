@@ -49,6 +49,10 @@ export const HooksArray = () => {
     }
   };
 
+  const cancelUpdate = () => {
+    setUpdate({ ok: false, id: 0 });
+  };
+
   return {
     arreglo,
     submitForm,
@@ -57,5 +61,7 @@ export const HooksArray = () => {
     delList,
     updateList,
     clickUpdate,
+    cancelUpdate,
+    updt: update.ok,
   };
 };
