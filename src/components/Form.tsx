@@ -1,4 +1,4 @@
-import { HooksArray } from "../helpers/hooksArray";
+import { HooksArray } from "../helpers/HooksArray";
 import List from "./List";
 
 const Form = () => {
